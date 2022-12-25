@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.basket{
+    width: 750px;
+    height: 750px;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);    float: right;
+    margin-right: 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.basket div{
+    width: 250px;
+    height: 250px;
+    border: 1px solid gray;
+    text-align: center;
+    padding-top: 15%;
+}
+
+.vf{
+    width: 750px;
+    height: 750px;
+    background: rgb(123,52,98);
+    background: linear-gradient(90deg, rgba(123,52,98,1) 0%, rgba(1,34,196,1) 0%, rgba(71,70,78,1) 0%, rgba(47,37,85,1) 0%, rgba(98,84,152,1) 53%);
+    margin-top: 5%;
+    margin-left: 5%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.vf div{
+    background-color: rgb(29, 243, 161);
+    width: 250px;
+    height: 250px;
+    border: 1px solid gray;
+    text-align: center;
+    padding-top: 15%;
+
+}
